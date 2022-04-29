@@ -1,13 +1,162 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
+.container{
+  max-width: 800px;
+}
+.content{
+  max-width: 400px;
+  margin: 200px auto;
+}
+.App{
+  display: flex;
+  max-width: 1400px;
+  margin: 40px auto;
+  height: 90vh;
+  box-shadow: 3px 4px 28px -1px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 3px 4px 28px -1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 3px 4px 28px -1px rgba(0,0,0,0.45);
+  /* border: 1px solid rgba(161, 157, 157, 0.76); */
+  border-radius: 10px;
+}
+.left{
+  width: 100%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+input{
+  display: block;
+  padding: 12px;
+  width: 100%;
+  border: 1px solid rgba(209, 209, 209, 0.658) ;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+.right{
+  width: 100%;
+}
+.icon{
+  width: 24px;
+}
+.formItem{
+  padding: 12px 0;
+}
+.check-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.checkbox{
+  width: 20px;
+  cursor: pointer;
+}
+.check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  border: 1px solid rgb(200, 197, 197);
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.btn2,.btn1{
+  margin: 20px 0px;
+}
+.google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+  background-color: white;
+} 
+.sign-btn{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.account{
+  color: gray;
+}
+.dark{
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 10px 10px 0px;
+}
+.text{
+  position: absolute;
+  max-width: 600px;
+  color: white;
+  bottom: 110px;
+  backdrop-filter: blur(16px);
+  border:  1px solid rgba(255, 255, 255, 0.137);
+}
+.text-content{
+  padding: 20px;
+}
+.andi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont h1,p{
+  margin: 0;
+}
+.line1{
+  line-height: 40px;
+}
+.line2{
+  line-height: 30px;
+}
+.light{
+  color: gray;
+}
+.bold{
+  font-weight: 600;
+}
+.signup{
+  text-align: center;
+  margin-top: 30px;
+}
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.round{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.568);
+}
+.star{
+  font-size: 32px;
 }
