@@ -36,7 +36,7 @@ const Signup = () => {
                         <button className='sign-btn'>Sign in</button>
                     </div>
                     <div className='btn2'>
-                        <button className='google'><img src={img} className='icon' />Sign in with Google</button>
+                        <button className='google light'><img src={img} className='icon' />Sign in with Google</button>
                     </div>
                 </div>
                 <div className='signup'>
